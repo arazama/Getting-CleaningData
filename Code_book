@@ -1,0 +1,40 @@
+CODE BOOK
+There were several files in a carpet.
+Some files were fore TEST and the others were for TRAIN
+
+SUBJECT: Were identify by an integer ID
+ACTIVITIES: 6 different activities that were performed by each subject
+These activities are:
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+Measurement means
+All variables are the mean and the standard deviation of a measurement for each subject and activity. 
+Some of the measurements were:
+Time domain body acceleration mean along X, Y, and Z:
+    MeanTimeBodyAccMeanX
+    MeanTimeBodyAccMeanY
+    MeanTimeBodyAccMeanZ
+Time domain body acceleration standard deviation along X, Y, and Z:
+    MeanTimeBodyAccStdDevX
+    MeanTimeBodyAccStdDevY
+    MeanTimeBodyAccStdDevZ
+
+The variables that I used in my R code were the following:
+TestData: Data for the Test
+TestDataAct: Data for the Test per activity
+TestDataSub: Data for the Test per subject
+TrainData: Data for the Training
+TrainDataAct: Data for the Training per activity
+TrainDataSub: Data for the Test per subject
+names: Activity names (1 to 6)
+feature: All the different variables in X, Y, and Z
+MergeAll: All the datas toguether with the proper activity name
+Tidy: The final tidy data with all the means and standard deviations per feature, activity and subject.
+
+
+
